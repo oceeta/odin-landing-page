@@ -23,7 +23,7 @@ body {
 .hero-and-header{
     display: flex;
     flex-direction: column;
-    padding: 0 120px;
+    padding: 0 144px;
     background-color: #1f2937;
 }
 
@@ -36,6 +36,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
