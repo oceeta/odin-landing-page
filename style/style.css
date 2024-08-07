@@ -11,13 +11,27 @@ body {
     justify-content: space-between;
 }
 
-a {
+.header-links li a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header-links, .hero-text-normal {
+    font-size: 18px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 48px;
+    padding: 8px 24px;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-links {
