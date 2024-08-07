@@ -20,11 +20,16 @@ body {
     font-size: 18px;
 }
 
+.hero-and-header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 48px;
     padding: 8px 24px;
     background-color: #1f2937;
 }
