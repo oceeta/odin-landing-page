@@ -18,6 +18,7 @@ button {
     padding: 8px 32px;
     border-radius: 8px;
     border-style: none;
+    width: fit-content;
 }
 
 button, .cta {
@@ -63,4 +64,14 @@ button, .cta {
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-and-button {
+    display: flex;
+    flex-direction: column;
 }
