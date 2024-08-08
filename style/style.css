@@ -49,7 +49,7 @@ button, .cta {
 .hero-and-header{
     display: flex;
     flex-direction: column;
-    padding: 0 144px;
+    padding: 0 16rem;
     background-color: #1f2937;
 }
 
@@ -57,7 +57,7 @@ button, .cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 0;
+    padding: 16px 0;
 }
 
 .logo {
@@ -75,16 +75,29 @@ button, .cta {
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 64px 0;
+    gap: 16px;
 }
 
 .hero-text-and-button {
     display: flex;
     flex-direction: column;
-    padding: 64px 0;
-    gap: 12px;
+    justify-content: space-between;
+    gap: 8px;
+    flex: 1;
 }
 
 .hero-text-bold {
     font-size: 48px;
     color: #f9faf8;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    width: 800px;
+    background-color: #e5e7eb;
 }
