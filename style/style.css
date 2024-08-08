@@ -38,6 +38,12 @@ button, .cta {
 
 .header-links, .hero-text-normal {
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text-bold, .hero-text-normal {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-and-header{
@@ -74,4 +80,11 @@ button, .cta {
 .hero-text-and-button {
     display: flex;
     flex-direction: column;
+    padding: 64px 0;
+    gap: 12px;
+}
+
+.hero-text-bold {
+    font-size: 48px;
+    color: #f9faf8;
 }
