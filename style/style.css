@@ -11,8 +11,23 @@ body {
     justify-content: space-between;
 }
 
+button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border-style: none;
+}
+
 button, .cta {
     background-color: #3882f6;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
 }
 
 .header-links li a {
