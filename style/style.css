@@ -110,7 +110,7 @@ button, .cta {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 32px 0;
 }
 
 .section-two .title {
