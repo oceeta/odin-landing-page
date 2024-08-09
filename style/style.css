@@ -126,13 +126,19 @@ button, .cta {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 .card-image {
@@ -142,4 +148,8 @@ button, .cta {
     border-radius: 16px;
     border-color: #3882f6;
     border-style: solid;
+}
+
+.card-text {
+    text-align: center;
 }
