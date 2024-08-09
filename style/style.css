@@ -111,10 +111,31 @@ button, .cta {
     justify-content: center;
     align-items: center;
     padding: 32px 0;
+    gap: 32px;
 }
 
 .section-two .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-width: 4px;
+    border-radius: 16px;
+    border-color: #3882f6;
+    border-style: solid;
 }
