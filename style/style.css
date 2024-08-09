@@ -46,14 +46,15 @@ button, .cta {
     flex-wrap: wrap;
 }
 
-.hero-and-header, .section-two, .section-three, .section-four {
-    padding: 0 16rem;
+.section-two, .section-three, .section-four {
+    padding: 32px 16rem;
 }
 
 .hero-and-header{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    padding: 0 16rem;
 }
 
 .header {
@@ -110,7 +111,6 @@ button, .cta {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 0;
     gap: 32px;
 }
 
