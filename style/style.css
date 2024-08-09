@@ -46,15 +46,17 @@ button, .cta {
     flex-wrap: wrap;
 }
 
-.section-two, .section-three, .section-four {
-    padding: 32px 16rem;
+.hero-and-header, .section-two, .section-three, .section-four {
+    padding-left: 16rem;
+    padding-right: 16rem;
 }
 
 .hero-and-header{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0 16rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .header {
@@ -112,6 +114,8 @@ button, .cta {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .section-two .title {
