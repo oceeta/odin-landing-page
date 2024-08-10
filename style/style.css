@@ -36,6 +36,7 @@ button, .cta {
     border-style: solid;
     border-color: #f9faf8;
     border-width: 2px;
+    height: fit-content;
 }
 
 .header-links li a {
@@ -189,4 +190,35 @@ button, .cta {
     width: fit-content;
     font-size: 24px;
     font-weight: bold;
+}
+
+.section-four {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 128px;
+    gap: 16px;
+    border-radius: 16px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cta-text strong {
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cta-text p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
