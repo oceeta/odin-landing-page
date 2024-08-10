@@ -21,6 +21,13 @@ button {
     width: fit-content;
 }
 
+blockquote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
 button, .cta {
     background-color: #3882f6;
 }
@@ -160,4 +167,26 @@ button, .cta {
 
 .card-image img {
     width: 200px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 16rem;
+    padding-right: 16rem ;
+}
+
+.quote-author {
+    align-self: flex-end;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: bold;
 }
