@@ -92,6 +92,7 @@ button, .cta {
     align-items: center;
     padding: 128px 0;
     gap: 16px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-text-and-button {
@@ -113,7 +114,13 @@ button, .cta {
     align-items: center;
     align-self: stretch;
     width: 600px;
+    height: auto;
     background-color: #e5e7eb;
+}
+
+.hero-image > img {
+    width: 600px;
+    height: auto;
 }
 
 .section-two {
